@@ -9,7 +9,7 @@ on:
       - '!.github/workflows/**'
 
 env:
-    GIT_PAT: ${{ secrets.GIT_PAT }}
+    GIT_PAT: ${{ secrets.ICMS_ROBOT_PAT }}
 
 jobs:
   merge-main:
@@ -52,9 +52,8 @@ jobs:
               git commit -m "Merged tokens directory from main into $branch_name"
               
               # Push changes using PAT for authentication
-              git push https://x-access-token:$GIT_PAT@github.com/i-Cell-Mobilsoft-Open-Source/ids-core-web.git $branch_name || echo "Failed to push $branch_name"
+              git push https://x-access-token:$GIT_PAT@github.com/i-Cell-Mobilsoft-Open-Source/dap-core-web.git $branch_name || echo "Failed to push $branch_name"
             else
               echo "No changes in tokens directory for $branch_name."
             fi
           done
-        
