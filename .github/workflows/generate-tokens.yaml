@@ -19,7 +19,7 @@ on:
 
 env:
   TOKEN_REPO: https://github.com/i-Cell-Mobilsoft-Open-Source/ids-tokens.git
-  TARGET_REPO: "i-Cell-Mobilsoft-Open-Source/dap-frontend"
+  TARGET_REPO: "i-Cell-Mobilsoft-Open-Source/ids-angular"
   CORE_WEB_REPO: "https://github.com/i-Cell-Mobilsoft-Open-Source/dap-core-web.git"
   TARGET_REPO_PATH: "target-repo"
 
