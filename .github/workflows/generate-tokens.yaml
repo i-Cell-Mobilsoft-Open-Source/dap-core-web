@@ -104,8 +104,8 @@ jobs:
 
       - name: Copy generated css
         run: |
-          mkdir -p ${{ env.TARGET_REPO_PATH }}/ids_css
-          rsync -a --delete css-optimized/ ${{ env.TARGET_REPO_PATH }}/ids_css/
+          mkdir -p ${{ env.TARGET_REPO_PATH }}/projects/demo/src/assets/ids_css
+          rsync -a --delete css-optimized/ ${{ env.TARGET_REPO_PATH }}/projects/demo/src/assets/ids_css/
 
       - name: Commit changes if any
         run: |
