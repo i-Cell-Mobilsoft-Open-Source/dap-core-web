@@ -418,6 +418,46 @@
                   "value": "{smc.colors.primary.fixed.darker-50}",
                   "type": "color"
                 }
+              },
+              "lighter-100": {
+                "value": "{smc.colors.primary.lighter-100}",
+                "type": "color"
+              },
+              "lighter-90": {
+                "value": "{smc.colors.primary.lighter-90}",
+                "type": "color"
+              },
+              "lighter-80": {
+                "value": "{smc.colors.primary.lighter-80}",
+                "type": "color"
+              },
+              "lighter-70": {
+                "value": "{smc.colors.primary.lighter-70}",
+                "type": "color"
+              },
+              "lighter-60": {
+                "value": "{smc.colors.primary.lighter-60}",
+                "type": "color"
+              },
+              "darker-60": {
+                "value": "{smc.colors.primary.darker-60}",
+                "type": "color"
+              },
+              "darker-70": {
+                "value": "{smc.colors.primary.darker-70}",
+                "type": "color"
+              },
+              "darker-80": {
+                "value": "{smc.colors.primary.darker-80}",
+                "type": "color"
+              },
+              "darker-90": {
+                "value": "{smc.colors.primary.darker-90}",
+                "type": "color"
+              },
+              "darker-100": {
+                "value": "{smc.colors.primary.darker-100}",
+                "type": "color"
               }
             },
             "secondary": {
@@ -1271,19 +1311,19 @@
                   "type": "color"
                 },
                 "darker-20": {
-                  "value": "{smc.colors.primary.fixed.darker-20}",
+                  "value": "{smc.colors.highlight.fixed.darker-20}",
                   "type": "color"
                 },
                 "darker-30": {
-                  "value": "{smc.colors.primary.fixed.darker-30}",
+                  "value": "{smc.colors.highlight.fixed.darker-30}",
                   "type": "color"
                 },
                 "darker-40": {
-                  "value": "{smc.colors.primary.fixed.darker-40}",
+                  "value": "{smc.colors.highlight.fixed.darker-40}",
                   "type": "color"
                 },
                 "darker-50": {
-                  "value": "{smc.colors.primary.fixed.darker-50}",
+                  "value": "{smc.colors.highlight.fixed.darker-50}",
                   "type": "color"
                 }
               }
@@ -1454,7 +1494,7 @@
             },
             "primary": {
               "lighter-100": {
-                "value": "{smc.colors.surface.lighter-10}",
+                "value": "{smc.colors.primary.lighter-100}",
                 "type": "color"
               },
               "lighter-30": {
@@ -1550,6 +1590,42 @@
                   "value": "{smc.colors.primary.fixed.darker-50}",
                   "type": "color"
                 }
+              },
+              "lighter-90": {
+                "value": "{smc.colors.primary.lighter-90}",
+                "type": "color"
+              },
+              "lighter-80": {
+                "value": "{smc.colors.primary.lighter-80}",
+                "type": "color"
+              },
+              "lighter-70": {
+                "value": "{smc.colors.primary.lighter-70}",
+                "type": "color"
+              },
+              "lighter-60": {
+                "value": "{smc.colors.primary.lighter-60}",
+                "type": "color"
+              },
+              "darker-60": {
+                "value": "{smc.colors.primary.darker-60}",
+                "type": "color"
+              },
+              "darker-70": {
+                "value": "{smc.colors.primary.darker-70}",
+                "type": "color"
+              },
+              "darker-80": {
+                "value": "{smc.colors.primary.darker-80}",
+                "type": "color"
+              },
+              "darker-90": {
+                "value": "{smc.colors.primary.darker-90}",
+                "type": "color"
+              },
+              "darker-100": {
+                "value": "{smc.colors.primary.darker-100}",
+                "type": "color"
               }
             },
             "secondary": {
@@ -2694,6 +2770,46 @@
                   "value": "{smc.colors.surface.fixed.lighter-10}",
                   "type": "color"
                 }
+              },
+              "lighter-100": {
+                "value": "{smc.colors.primary.lighter-100}",
+                "type": "color"
+              },
+              "lighter-90": {
+                "value": "{smc.colors.primary.lighter-90}",
+                "type": "color"
+              },
+              "lighter-80": {
+                "value": "{smc.colors.primary.lighter-80}",
+                "type": "color"
+              },
+              "lighter-70": {
+                "value": "{smc.colors.primary.lighter-70}",
+                "type": "color"
+              },
+              "lighter-60": {
+                "value": "{smc.colors.primary.lighter-60}",
+                "type": "color"
+              },
+              "darker-60": {
+                "value": "{smc.colors.primary.darker-60}",
+                "type": "color"
+              },
+              "darker-70": {
+                "value": "{smc.colors.primary.darker-70}",
+                "type": "color"
+              },
+              "darker-80": {
+                "value": "{smc.colors.primary.darker-80}",
+                "type": "color"
+              },
+              "darker-90": {
+                "value": "{smc.colors.primary.darker-90}",
+                "type": "color"
+              },
+              "darker-100": {
+                "value": "{smc.colors.primary.darker-100}",
+                "type": "color"
               }
             },
             "secondary": {
@@ -3792,8 +3908,28 @@
               "value": "{base.dimension.3200}",
               "type": "number"
             },
+            "360": {
+              "value": "{base.dimension.3600}",
+              "type": "number"
+            },
             "400": {
               "value": "{base.dimension.4000}",
+              "type": "number"
+            },
+            "440": {
+              "value": "{base.dimension.4400}",
+              "type": "number"
+            },
+            "480": {
+              "value": "{base.dimension.4800}",
+              "type": "number"
+            },
+            "512": {
+              "value": "{base.dimension.5120}",
+              "type": "number"
+            },
+            "560": {
+              "value": "{base.dimension.5600}",
               "type": "number"
             },
             "600": {
@@ -4025,6 +4161,22 @@
             "value": "{base.dimension.320}",
             "type": "number"
           },
+          "40": {
+            "value": "{base.dimension.400}",
+            "type": "number"
+          },
+          "48": {
+            "value": "{base.dimension.480}",
+            "type": "number"
+          },
+          "56": {
+            "value": "{base.dimension.560}",
+            "type": "number"
+          },
+          "64": {
+            "value": "{base.dimension.640}",
+            "type": "number"
+          },
           "72": {
             "value": "{base.dimension.720}",
             "type": "number"
@@ -4065,6 +4217,18 @@
           },
           "32": {
             "value": "{base.dimension.320}",
+            "type": "number"
+          },
+          "40": {
+            "value": "{base.dimension.400}",
+            "type": "number"
+          },
+          "48": {
+            "value": "{base.dimension.480}",
+            "type": "number"
+          },
+          "56": {
+            "value": "{base.dimension.560}",
             "type": "number"
           },
           "none": {
@@ -4410,7 +4574,7 @@
       "typography": {
         "font-family": {
           "default": {
-            "value": "{base.typography.font-family.Montserrat}",
+            "value": "{base.typography.font-family.Inter}",
             "type": "text"
           }
         },
