@@ -864,7 +864,7 @@
                 "type": "color"
               },
               "default": {
-                "value": "{smc.colors.error.darker-10}",
+                "value": "{smc.colors.error.default}",
                 "type": "color"
               },
               "darker-20": {
