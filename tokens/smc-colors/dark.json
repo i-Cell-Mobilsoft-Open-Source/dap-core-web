@@ -185,7 +185,7 @@
           "type": "color"
         },
         "default": {
-          "value": "{base.color.Custom.900}",
+          "value": "{base.color.Custom.700}",
           "type": "color"
         },
         "darker-10": {
@@ -415,7 +415,7 @@
           "type": "color"
         },
         "default": {
-          "value": "{base.color.Custom.900}",
+          "value": "{base.color.Custom.700}",
           "type": "color"
         },
         "darker-10": {
@@ -549,7 +549,7 @@
           "type": "color"
         },
         "default": {
-          "value": "{base.color.Red.900}",
+          "value": "{base.color.Red.700}",
           "type": "color"
         },
         "darker-10": {
@@ -681,7 +681,7 @@
           "type": "color"
         },
         "default": {
-          "value": "{base.color.Green.900}",
+          "value": "{base.color.Green.700}",
           "type": "color"
         },
         "darker-10": {
@@ -813,7 +813,7 @@
           "type": "color"
         },
         "default": {
-          "value": "{base.color.Orange.900}",
+          "value": "{base.color.Orange.700}",
           "type": "color"
         },
         "darker-10": {
@@ -945,7 +945,7 @@
           "type": "color"
         },
         "default": {
-          "value": "{base.color.Blue.900}",
+          "value": "{base.color.Blue.700}",
           "type": "color"
         },
         "darker-10": {
