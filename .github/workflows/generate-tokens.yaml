@@ -1,0 +1,119 @@
+name: Generate and Push Tokens (manual)
+
+on:
+  workflow_dispatch:
+    inputs:
+      feature_branch:
+        description: "Feature branch to push tokens"
+        required: true
+        default: "feature/generated_css"
+      tokens_branch:
+        description: "Tokens repo branch"
+        required: true
+        default: "feature/filter-default-branches"
+  push:
+    branches:
+      - main
+    paths:
+      - 'tokens/**'
+
+env:
+  TOKEN_REPO: https://github.com/i-Cell-Mobilsoft-Open-Source/ids-tokens.git
+  TARGET_REPO: "i-Cell-Mobilsoft-Open-Source/ids-angular"
+  CORE_WEB_REPO: "https://github.com/i-Cell-Mobilsoft-Open-Source/dap-core-web.git"
+  TARGET_REPO_PATH: "target-repo"
+
+jobs:
+  generate-tokens:
+    name: Generate tokens
+    runs-on: ubuntu-latest
+    outputs:
+      artifact-path: ${{ steps.out.outputs.artifact_path }}
+    steps:
+      - name: Checkout runner repo
+        uses: actions/checkout@v6
+
+      - name: Set up Node and pnpm
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - run: npm install -g pnpm
+
+      - name: Configure git
+        run: |
+          git config --global user.name "icellmobilsoft-robot"
+          git config --global user.email "github.robot@icellmobilsoft.hu"
+
+      - name: Clone tokens repo
+        run: |
+          git clone "${{ env.TOKEN_REPO }}" token-repo
+          cd token-repo
+          git checkout "${{ github.event.inputs.tokens_branch }}"
+
+      - name: Install and generate
+        working-directory: token-repo
+        run: |
+          pnpm install --frozen-lockfile || pnpm install
+          pnpm generate
+
+      - name: Verify generated artifacts
+        run: |
+          test -d token-repo/css-optimized && test -n "$(ls -A token-repo/css-optimized)" || { echo "css-optimized empty"; exit 1; }
+
+      - name: Upload artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: css-optimized
+          path: token-repo/css-optimized
+      - id: out
+        run: echo "artifact_path=css-optimized" >> "$GITHUB_OUTPUT"
+
+  push-to-target:
+    name: Push tokens to target repo
+    needs: generate-tokens
+    runs-on: ubuntu-latest
+    steps:
+      - name: Download artifact
+        uses: actions/download-artifact@v4
+        with:
+          name: css-optimized
+          path: css-optimized
+
+      - name: Configure git
+        run: |
+          git config --global user.name "icellmobilsoft-robot"
+          git config --global user.email "github.robot@icellmobilsoft.hu"
+
+      - name: Checkout target repo
+        uses: actions/checkout@v6
+        with:
+          repository: ${{ env.TARGET_REPO }}
+          token: ${{ secrets.ICMS_ROBOT_PAT }}
+          fetch-depth: 0
+          path: ${{ env.TARGET_REPO_PATH }}
+
+      - name: Create or checkout feature branch
+        run: |
+          cd ${{ env.TARGET_REPO_PATH }}
+          BRANCH="${{ github.event.inputs.feature_branch }}"
+          if git ls-remote --heads origin "$BRANCH" | grep -q "$BRANCH"; then
+            git checkout "$BRANCH"
+          else
+            git checkout -b "$BRANCH"
+          fi
+
+      - name: Copy generated css
+        run: |
+          mkdir -p ${{ env.TARGET_REPO_PATH }}/projects/demo/src/assets/ids_css
+          rsync -a --delete css-optimized/ ${{ env.TARGET_REPO_PATH }}/projects/demo/src/assets/ids_css/
+
+      - name: Commit changes if any
+        run: |
+          cd ${{ env.TARGET_REPO_PATH }}
+          if [ -n "$(git status --porcelain projects/demo/src/assets/ids_css)" ]; then
+            git add projects/demo/src/assets/ids_css
+            git commit -m "Update ids_css from token generation job"
+            git push origin "${{ github.event.inputs.feature_branch }}" --force
+          else
+            echo "No changes; nothing to commit."
+          fi
