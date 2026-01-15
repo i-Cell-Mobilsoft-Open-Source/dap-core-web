@@ -5,7 +5,8 @@
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
       "base/base": "source"
-    }
+    },
+    "$figmaVariableReferences": {}
   },
   {
     "id": "smc-reference-smc-reference",
@@ -13,7 +14,8 @@
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
       "smc-reference/smc-reference": "enabled",
-      "base/base": "source"
+      "base/base": "source",
+      "smc-colors/light": "source"
     },
     "$figmaCollectionId": "VariableCollectionId:2002:26296",
     "$figmaModeId": "2002:56",
@@ -59,7 +61,6 @@
       "smc.reference.container.color.bg.surface.darker-70": "63e9d7936cefa2aaf842a3c31ace2c25c6c800da",
       "smc.reference.container.color.bg.surface.darker-80": "6d9e3cdf0066d131ba514ce8b65bf47176ac0d2d",
       "smc.reference.container.color.bg.surface.darker-90": "1ba821783c8428d21ed2a789e6d756f37d8ce058",
-      "smc.reference.container.color.bg.surface.darker-95": "a877ebed1d5b36ea447922000ad797ec1c44f839",
       "smc.reference.container.color.bg.surface.darker-100": "4946ce4fc9373ca12fe0ffa14a41be1836a691d5",
       "smc.reference.container.color.bg.surface.transparent.0": "2758d718479f9add9fec6c30687a8069755615c3",
       "smc.reference.container.color.bg.surface.transparent.50": "ce7ff45579461290aa99c98c821b83b45d3ad5fa",
@@ -397,7 +398,6 @@
       "smc.reference.container.color.fg.surface.darker-60": "4f0440f5d563d6e24366a8d94b978a1b0ee57c47",
       "smc.reference.container.color.fg.surface.darker-50": "69e4ffba7c7c5590b3f068660ef3699e77e7d6d5",
       "smc.reference.container.color.fg.surface.darker-70": "31df8c972e570f1944450b1bcbba932155b7a2e3",
-      "smc.reference.container.color.fg.surface.darker-95": "64c62af17159728344cc0b6e7d9f7d9ec2aaeb0e",
       "smc.reference.container.color.fg.surface.darker-40": "ce8ad656bbbbe23c3843c6bf6b590c8e82c0c50b",
       "smc.reference.container.color.fg.surface.fixed.lighter-10": "6edd83a787de5297bbf0dc7be6abf152c3117623",
       "smc.reference.container.color.fg.surface.fixed.darker-95": "fd3dbe3930f370aecf54dbbff43ba2c4696c3623",
@@ -764,7 +764,6 @@
       "smc.reference.container.color.border.surface.darker-60": "bd1f67da81af0110d1524967c7560c6fe532b753",
       "smc.reference.container.color.border.surface.darker-80": "28b83e0f275ef9eb8e60f7f3d79d3c5e93a6bd97",
       "smc.reference.container.color.border.surface.darker-90": "a6dba8965962cc1f104d1fae49c77b151fb9e3a1",
-      "smc.reference.container.color.border.surface.darker-95": "b8f41292b02525d4f7e8ff0d90d752dea5f2fbd7",
       "smc.reference.container.color.border.surface.darker-200": "13e145bcf68eb2f3fd5ad75bd0ead740a87bc5b8",
       "smc.reference.container.color.border.surface.darker-300": "f9407ef25cd063b1702102485f0e3a7548ae328e",
       "smc.reference.container.color.border.surface.darker-400": "843d5f12811c18217b4f760258461d3c2e944b6a",
@@ -1567,7 +1566,6 @@
       "smc.reference.container.color.bg.surface.darker-70": "63e9d7936cefa2aaf842a3c31ace2c25c6c800da",
       "smc.reference.container.color.bg.surface.darker-80": "6d9e3cdf0066d131ba514ce8b65bf47176ac0d2d",
       "smc.reference.container.color.bg.surface.darker-90": "1ba821783c8428d21ed2a789e6d756f37d8ce058",
-      "smc.reference.container.color.bg.surface.darker-95": "a877ebed1d5b36ea447922000ad797ec1c44f839",
       "smc.reference.container.color.bg.surface.darker-100": "4946ce4fc9373ca12fe0ffa14a41be1836a691d5",
       "smc.reference.container.color.bg.surface.transparent.0": "2758d718479f9add9fec6c30687a8069755615c3",
       "smc.reference.container.color.bg.surface.transparent.50": "ce7ff45579461290aa99c98c821b83b45d3ad5fa",
@@ -1905,7 +1903,6 @@
       "smc.reference.container.color.fg.surface.darker-60": "4f0440f5d563d6e24366a8d94b978a1b0ee57c47",
       "smc.reference.container.color.fg.surface.darker-50": "69e4ffba7c7c5590b3f068660ef3699e77e7d6d5",
       "smc.reference.container.color.fg.surface.darker-70": "31df8c972e570f1944450b1bcbba932155b7a2e3",
-      "smc.reference.container.color.fg.surface.darker-95": "64c62af17159728344cc0b6e7d9f7d9ec2aaeb0e",
       "smc.reference.container.color.fg.surface.darker-40": "ce8ad656bbbbe23c3843c6bf6b590c8e82c0c50b",
       "smc.reference.container.color.fg.surface.fixed.lighter-10": "6edd83a787de5297bbf0dc7be6abf152c3117623",
       "smc.reference.container.color.fg.surface.fixed.darker-95": "fd3dbe3930f370aecf54dbbff43ba2c4696c3623",
@@ -2272,7 +2269,6 @@
       "smc.reference.container.color.border.surface.darker-60": "bd1f67da81af0110d1524967c7560c6fe532b753",
       "smc.reference.container.color.border.surface.darker-80": "28b83e0f275ef9eb8e60f7f3d79d3c5e93a6bd97",
       "smc.reference.container.color.border.surface.darker-90": "a6dba8965962cc1f104d1fae49c77b151fb9e3a1",
-      "smc.reference.container.color.border.surface.darker-95": "b8f41292b02525d4f7e8ff0d90d752dea5f2fbd7",
       "smc.reference.container.color.border.surface.darker-200": "13e145bcf68eb2f3fd5ad75bd0ead740a87bc5b8",
       "smc.reference.container.color.border.surface.darker-300": "f9407ef25cd063b1702102485f0e3a7548ae328e",
       "smc.reference.container.color.border.surface.darker-400": "843d5f12811c18217b4f760258461d3c2e944b6a",
@@ -3665,29 +3661,7 @@
       "base.em.-015": "39a43fd40e77491ee435117177d4040f063529a0",
       "base.em.015": "f6aef4e1d7567b58492e8d1ed11e6ff19e527c85",
       "base.em.025": "81f6b61b6bc412e3550e9327f5d0051696a84bb2",
-      "base.em.050": "3600a7e4d393e3bcd7338d86c33eb872a43cf5f1",
-      "base.color.light.5": "6db0e31a711964e36bd45df550110293182dec4e",
-      "base.color.light.10": "d1567c4bddd43095671fed2e55c34b64d3c774bb",
-      "base.color.light.20": "61bec1719996d6136d0b08e218f0953f8440b81d",
-      "base.color.light.30": "3bf7c817a29b13ba1b421aa97534d82b4eb18bc4",
-      "base.color.light.40": "6a3a0b3454d26d2ea1b13085095314d09dfc83f7",
-      "base.color.light.50": "22dff630f21a3db2c2607da764a9816880a3758c",
-      "base.color.light.60": "40323c718d681071546ed7c22d25f8e2e10e59f2",
-      "base.color.light.70": "cb6270000a42e78d4f103bfb3cb48200e44ceff4",
-      "base.color.light.80": "328c170de12251c6adb9124d34a457006358178e",
-      "base.color.light.90": "8366d96b0971b9c82d6471a8092a4a0a3cd7759d",
-      "base.color.light.100": "09bedf47584dfcaeb4801bf236a2184bb53c2a82",
-      "base.color.dark.5": "bad4ac31114a1d41d56af809e1a904f55859dc86",
-      "base.color.dark.10": "0edf4e551af90c24f03df1d97d74897ce04caa29",
-      "base.color.dark.20": "8b3425007cf5d221bd78636537b099f7bfee3822",
-      "base.color.dark.30": "1a103ae0cbc1fec5c766b385534aa3676fd0a31e",
-      "base.color.dark.40": "dbf3360d149808da297fbbbe2580b510ebbe720f",
-      "base.color.dark.50": "d71e70f74507ac0cc407205fafde4ae4df011d2d",
-      "base.color.dark.60": "2320abcbe18d724284922637bd3b21a105336d46",
-      "base.color.dark.70": "ed442811bc3082977c2dbd45c7b52301e9ac24dc",
-      "base.color.dark.80": "9308c02fa377ba8404948bdd9e2cf6151fadf358",
-      "base.color.dark.90": "d2677ec4064f6364115735ca1e1660b4ea2e8de4",
-      "base.color.dark.100": "57ef8292adb0a438009a1bf376366ad5f5b24059"
+      "base.em.050": "3600a7e4d393e3bcd7338d86c33eb872a43cf5f1"
     },
     "$figmaModeId": "2002:53",
     "$figmaCollectionId": "VariableCollectionId:2002:25858",
