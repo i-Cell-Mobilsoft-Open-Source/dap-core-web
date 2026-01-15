@@ -164,6 +164,26 @@
         }
       },
       "primary": {
+        "lighter-100": {
+          "value": "{base.color.light}",
+          "type": "color"
+        },
+        "lighter-90": {
+          "value": "{base.color.Custom.100}",
+          "type": "color"
+        },
+        "lighter-80": {
+          "value": "{base.color.Custom.200}",
+          "type": "color"
+        },
+        "lighter-70": {
+          "value": "{base.color.Custom.300}",
+          "type": "color"
+        },
+        "lighter-60": {
+          "value": "{base.color.Custom.400}",
+          "type": "color"
+        },
         "lighter-50": {
           "value": "{base.color.Custom.500}",
           "type": "color"
@@ -200,88 +220,16 @@
           "value": "{base.color.Custom.1300}",
           "type": "color"
         },
-        "darker-50": {
-          "value": "{base.color.Custom.1500}",
-          "type": "color"
-        },
         "darker-40": {
           "value": "{base.color.Custom.1400}",
           "type": "color"
         },
-        "variant": {
-          "darker-50": {
-            "value": "{base.color.Custom.950}",
-            "type": "color"
-          }
-        },
-        "fixed": {
-          "lighter-50": {
-            "value": "{base.color.Custom.50}",
-            "type": "color"
-          },
-          "lighter-40": {
-            "value": "{base.color.Custom.100}",
-            "type": "color"
-          },
-          "lighter-30": {
-            "value": "{base.color.Custom.200}",
-            "type": "color"
-          },
-          "lighter-20": {
-            "value": "{base.color.Custom.300}",
-            "type": "color"
-          },
-          "lighter-10": {
-            "value": "{base.color.Custom.400}",
-            "type": "color"
-          },
-          "default": {
-            "value": "{base.color.Custom.500}",
-            "type": "color"
-          },
-          "darker-10": {
-            "value": "{base.color.Custom.600}",
-            "type": "color"
-          },
-          "darker-20": {
-            "value": "{base.color.Custom.700}",
-            "type": "color"
-          },
-          "darker-30": {
-            "value": "{base.color.Custom.800}",
-            "type": "color"
-          },
-          "darker-40": {
-            "value": "{base.color.Custom.900}",
-            "type": "color"
-          },
-          "darker-50": {
-            "value": "{base.color.Custom.950}",
-            "type": "color"
-          }
+        "darker-50": {
+          "value": "{base.color.Custom.1500}",
+          "type": "color"
         },
         "darker-60": {
           "value": "{base.color.Custom.1600}",
-          "type": "color"
-        },
-        "lighter-60": {
-          "value": "{base.color.Custom.400}",
-          "type": "color"
-        },
-        "lighter-70": {
-          "value": "{base.color.Custom.300}",
-          "type": "color"
-        },
-        "lighter-80": {
-          "value": "{base.color.Custom.200}",
-          "type": "color"
-        },
-        "lighter-90": {
-          "value": "{base.color.Custom.100}",
-          "type": "color"
-        },
-        "lighter-100": {
-          "value": "{base.color.light}",
           "type": "color"
         },
         "darker-70": {
@@ -299,6 +247,98 @@
         "darker-100": {
           "value": "{base.color.Custom.2000}",
           "type": "color"
+        },
+        "variant": {
+          "darker-50": {
+            "value": "{base.color.Custom.950}",
+            "type": "color"
+          }
+        },
+        "fixed": {
+          "lighter-100": {
+            "value": "{base.color.light}",
+            "type": "color"
+          },
+          "lighter-90": {
+            "value": "{base.color.Custom.100}",
+            "type": "color"
+          },
+          "lighter-80": {
+            "value": "{base.color.Custom.200}",
+            "type": "color"
+          },
+          "lighter-70": {
+            "value": "{base.color.Custom.300}",
+            "type": "color"
+          },
+          "lighter-60": {
+            "value": "{base.color.Custom.400}",
+            "type": "color"
+          },
+          "lighter-50": {
+            "value": "{base.color.Custom.500}",
+            "type": "color"
+          },
+          "lighter-40": {
+            "value": "{base.color.Custom.600}",
+            "type": "color"
+          },
+          "lighter-30": {
+            "value": "{base.color.Custom.700}",
+            "type": "color"
+          },
+          "lighter-20": {
+            "value": "{base.color.Custom.800}",
+            "type": "color"
+          },
+          "lighter-10": {
+            "value": "{base.color.Custom.900}",
+            "type": "color"
+          },
+          "default": {
+            "value": "{base.color.Custom.1000}",
+            "type": "color"
+          },
+          "darker-10": {
+            "value": "{base.color.Custom.1100}",
+            "type": "color"
+          },
+          "darker-20": {
+            "value": "{base.color.Custom.1200}",
+            "type": "color"
+          },
+          "darker-30": {
+            "value": "{base.color.Custom.1300}",
+            "type": "color"
+          },
+          "darker-40": {
+            "value": "{base.color.Custom.1400}",
+            "type": "color"
+          },
+          "darker-50": {
+            "value": "{base.color.Custom.1500}",
+            "type": "color"
+          },
+          "darker-60": {
+            "value": "{base.color.Custom.1600}",
+            "type": "color"
+          },
+          "darker-70": {
+            "value": "{base.color.Custom.1700}",
+            "type": "color"
+          },
+          "darker-80": {
+            "value": "{base.color.Custom.1800}",
+            "type": "color"
+          },
+          "darker-90": {
+            "value": "{base.color.Custom.1900}",
+            "type": "color"
+          },
+          "darker-100": {
+            "value": "{base.color.Custom.2000}",
+            "type": "color"
+          }
         }
       },
       "secondary": {
