@@ -6213,7 +6213,7 @@
                   "type": "color"
                 },
                 "disabled": {
-                  "value": "{smc.reference.container.color.fg.surface.darker-100}",
+                  "value": "{smc.reference.container.color.fg.surface.darker-40}",
                   "type": "color"
                 }
               },
