@@ -4,7 +4,7 @@
     "name": "base",
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
-      "base/base": "source"
+      "base/base": "enabled"
     },
     "$figmaVariableReferences": {}
   },
