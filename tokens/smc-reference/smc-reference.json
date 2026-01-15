@@ -179,10 +179,6 @@
                 "value": "{smc.colors.surface.darker-90}",
                 "type": "color"
               },
-              "darker-95": {
-                "value": "{smc.colors.surface.darker-95}",
-                "type": "color"
-              },
               "darker-100": {
                 "value": "{smc.colors.surface.darker-100}",
                 "type": "color"
@@ -1595,10 +1591,6 @@
               },
               "darker-70": {
                 "value": "{smc.colors.surface.darker-70}",
-                "type": "color"
-              },
-              "darker-95": {
-                "value": "{smc.colors.surface.darker-95}",
                 "type": "color"
               },
               "darker-40": {
@@ -3127,10 +3119,6 @@
               },
               "darker-90": {
                 "value": "{smc.colors.surface.darker-90}",
-                "type": "color"
-              },
-              "darker-95": {
-                "value": "{smc.colors.surface.darker-95}",
                 "type": "color"
               },
               "darker-200": {
