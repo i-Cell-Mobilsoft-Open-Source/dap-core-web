@@ -12,13 +12,13 @@
                 },
                 "error": {
                   "default": {
-                    "value": "{smc.reference.container.color.fg.error.darker-10}",
+                    "value": "{smc.reference.container.color.fg.error.default}",
                     "type": "color"
                   }
                 },
                 "success": {
                   "default": {
-                    "value": "{smc.reference.container.color.fg.success.darker-20}",
+                    "value": "{smc.reference.container.color.fg.success.default}",
                     "type": "color"
                   }
                 },
@@ -80,13 +80,13 @@
                 },
                 "error": {
                   "default": {
-                    "value": "{smc.reference.container.color.fg.error.darker-10}",
+                    "value": "{smc.reference.container.color.fg.error.default}",
                     "type": "color"
                   }
                 },
                 "success": {
                   "default": {
-                    "value": "{smc.reference.container.color.fg.success.darker-20}",
+                    "value": "{smc.reference.container.color.fg.success.default}",
                     "type": "color"
                   }
                 },
