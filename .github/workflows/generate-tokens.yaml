@@ -104,14 +104,14 @@ jobs:
 
       - name: Copy generated css
         run: |
-          mkdir -p ${{ env.TARGET_REPO_PATH }}/ids_css
-          rsync -a --delete css-optimized/ ${{ env.TARGET_REPO_PATH }}/ids_css/
+          mkdir -p ${{ env.TARGET_REPO_PATH }}/projects/demo/src/assets/ids_css
+          rsync -a --delete css-optimized/ ${{ env.TARGET_REPO_PATH }}/projects/demo/src/assets/ids_css/
 
       - name: Commit changes if any
         run: |
           cd ${{ env.TARGET_REPO_PATH }}
-          if [ -n "$(git status --porcelain ids_css)" ]; then
-            git add ids_css
+          if [ -n "$(git status --porcelain projects/demo/src/assets/ids_css)" ]; then
+            git add projects/demo/src/assets/ids_css
             git commit -m "Update ids_css from token generation job"
             git push origin "${{ github.event.inputs.feature_branch }}" --force
           else
