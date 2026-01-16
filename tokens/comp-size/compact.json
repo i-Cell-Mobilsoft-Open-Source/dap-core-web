@@ -13,7 +13,7 @@
               "type": "number"
             },
             "line-height": {
-              "value": "{smc.reference.typography.line-height.20}",
+              "value": "{smc.reference.typography.line-height.15}",
               "type": "number"
             },
             "letter-spacing": {
@@ -21,7 +21,7 @@
               "type": "number"
             },
             "font-weight": {
-              "value": "{smc.reference.typography.font-weight.Regular}",
+              "value": "{smc.reference.typography.font-weight.Medium}",
               "type": "number"
             }
           }
@@ -49,7 +49,7 @@
           },
           "size": {
             "border-radius": {
-              "value": "{smc.reference.container.border-radius.4xs}",
+              "value": "{smc.reference.container.border-radius.2xs}",
               "type": "number"
             },
             "icon": {
@@ -57,11 +57,11 @@
               "type": "number"
             },
             "width": {
-              "value": "{smc.reference.container.size.width.24}",
+              "value": "{smc.reference.container.size.width.20}",
               "type": "number"
             },
             "height": {
-              "value": "{smc.reference.container.size.height.24}",
+              "value": "{smc.reference.container.size.height.20}",
               "type": "number"
             },
             "border-width": {
@@ -92,7 +92,7 @@
                 "type": "number"
               },
               "font-weight": {
-                "value": "{smc.reference.typography.font-weight.SemiBold}",
+                "value": "{smc.reference.typography.font-weight.Bold}",
                 "type": "number"
               },
               "line-height": {

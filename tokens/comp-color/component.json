@@ -80,15 +80,15 @@
                     "type": "color"
                   },
                   "hovered": {
-                    "value": "{smc.reference.forms.color.border.surface.hovered}",
+                    "value": "{smc.reference.forms.color.border.surface.default}",
                     "type": "color"
                   },
                   "focused": {
-                    "value": "{smc.reference.forms.color.border.surface.focused}",
+                    "value": "{smc.reference.forms.color.border.surface.default}",
                     "type": "color"
                   },
                   "pressed": {
-                    "value": "{smc.reference.forms.color.border.surface.pressed}",
+                    "value": "{smc.reference.forms.color.border.surface.default}",
                     "type": "color"
                   },
                   "error": {
