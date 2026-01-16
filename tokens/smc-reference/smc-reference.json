@@ -5447,6 +5447,10 @@
             "value": "{base.dimension.140}",
             "type": "number"
           },
+          "15": {
+            "value": "{base.dimension.150}",
+            "type": "number"
+          },
           "16": {
             "value": "{base.dimension.160}",
             "type": "number"
