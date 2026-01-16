@@ -6118,7 +6118,7 @@
                 },
                 "warning": {
                   "default": {
-                    "value": "{smc.reference.container.color.bg.warning.lighter-30}",
+                    "value": "{smc.reference.container.color.bg.warning.variant.lighter-30}",
                     "type": "color"
                   },
                   "hovered": {
@@ -6161,7 +6161,7 @@
                   },
                   "fixed": {
                     "default": {
-                      "value": "{smc.reference.container.color.bg.surface.fixed.lighter-10}",
+                      "value": "{smc.reference.container.color.bg.primary.fixed.lighter-90}",
                       "type": "color"
                     },
                     "hovered": {
@@ -6341,7 +6341,7 @@
                   },
                   "warning": {
                     "default": {
-                      "value": "{smc.reference.container.color.fg.surface.darker-900}",
+                      "value": "{smc.reference.container.color.fg.surface.fixed.darker-95}",
                       "type": "color"
                     },
                     "hovered": {
@@ -6384,7 +6384,7 @@
                     },
                     "fixed": {
                       "default": {
-                        "value": "{smc.reference.container.color.fg.surface.fixed.darker-70}",
+                        "value": "{smc.reference.container.color.fg.primary.fixed.default}",
                         "type": "color"
                       },
                       "hovered": {
@@ -6563,7 +6563,7 @@
                   },
                   "warning": {
                     "default": {
-                      "value": "{smc.reference.container.color.fg.surface.darker-900}",
+                      "value": "{smc.reference.container.color.fg.surface.fixed.darker-95}",
                       "type": "color"
                     },
                     "hovered": {
@@ -6606,7 +6606,7 @@
                     },
                     "fixed": {
                       "default": {
-                        "value": "{smc.reference.container.color.fg.surface.fixed.darker-70}",
+                        "value": "{smc.reference.container.color.fg.primary.fixed.default}",
                         "type": "color"
                       },
                       "hovered": {
@@ -7030,7 +7030,7 @@
                 },
                 "warning": {
                   "default": {
-                    "value": "{smc.reference.container.color.bg.warning.lighter-30}",
+                    "value": "{smc.reference.container.color.bg.warning.variant.lighter-30}",
                     "type": "color"
                   },
                   "hovered": {
@@ -7230,7 +7230,7 @@
                 },
                 "warning": {
                   "default": {
-                    "value": "{smc.reference.container.color.fg.surface.darker-900}",
+                    "value": "{smc.reference.container.color.fg.surface.fixed.darker-95}",
                     "type": "color"
                   },
                   "hovered": {
