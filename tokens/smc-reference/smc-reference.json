@@ -2465,19 +2465,19 @@
                 "value": "{smc.colors.error.darker-100}",
                 "type": "color"
               },
-              "lighter-50 2": {
+              "lighter-90": {
                 "value": "{smc.colors.error.lighter-90}",
                 "type": "color"
               },
-              "lighter-40 2": {
+              "lighter-80": {
                 "value": "{smc.colors.error.lighter-80}",
                 "type": "color"
               },
-              "lighter-30 2": {
+              "lighter-70": {
                 "value": "{smc.colors.error.lighter-70}",
                 "type": "color"
               },
-              "lighter-20 2": {
+              "lighter-60": {
                 "value": "{smc.colors.error.lighter-60}",
                 "type": "color"
               }
