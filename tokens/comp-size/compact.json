@@ -53,7 +53,7 @@
               "type": "text"
             },
             "font-size": {
-              "value": "{smc.reference.typography.font-size.16}",
+              "value": "{smc.reference.typography.font-size.14}",
               "type": "number"
             },
             "font-weight": {

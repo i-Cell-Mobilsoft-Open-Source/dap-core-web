@@ -4558,5 +4558,150 @@
     "$figmaModeId": "9755:3",
     "$figmaCollectionId": "VariableCollectionId:9755:947",
     "group": "smc-layout"
+  },
+  {
+    "id": "comp-size-compact",
+    "name": "compact",
+    "group": "comp-size",
+    "selectedTokenSets": {
+      "comp-size/compact": "enabled"
+    },
+    "$figmaStyleReferences": {},
+    "$figmaVariableReferences": {
+      "comp.size.message.typography.font-family": "4c1e77e728479d48de832ea4ec063d53d9d086e1",
+      "comp.size.message.typography.font-size": "a4613e0f66354729414059d5f2e2392b2b087df6",
+      "comp.size.message.typography.font-weight": "e11661492562124a7c8d865292989146ebfce2a2",
+      "comp.size.message.typography.line-height": "fbc243ae008e42c9e371f176bbe4b855c4590957",
+      "comp.size.message.typography.letter-spacing": "74ecd224c56d63bba5587ccbe8de633bbf8cb53e",
+      "comp.size.message.size.padding-x": "a2eda0f83d223898a23ff5647c64b149169b9b4b",
+      "comp.size.message.size.padding-y": "5bb099a4f1139fb8268507dee3238efd55f9e079",
+      "comp.size.message.size.gap": "de907371466ac90a562d8d31718c5ef77e306144",
+      "comp.size.message.size.icon-width": "1d01539c242ae54984ff773d7d32e4b0d3336327",
+      "comp.size.message.size.icon-height": "7b62f37fd86d824f1344e024f7ef252f0d442e71",
+      "comp.size.message.icon.typography.font-family": "bfb03351ceebdbb1929ec3d70cf9bfd55b11d85a",
+      "comp.size.message.icon.typography.font-size": "b6ff6bf13c8e12f3a59822a96048601a7ad68e5c",
+      "comp.size.message.icon.typography.font-weight": "d3fcb901ccf1425060e8fb2c4b81c959abc0c5f9",
+      "comp.size.message.icon.typography.line-height": "4e7b810fc810c6216b28f234239deaff1dc08cc8"
+    },
+    "$figmaModeId": "2002:58",
+    "$figmaCollectionId": "VariableCollectionId:2002:28942"
+  },
+  {
+    "id": "comp-size-comfortable",
+    "name": "comfortable",
+    "group": "comp-size",
+    "selectedTokenSets": {
+      "comp-size/comfortable": "enabled"
+    },
+    "$figmaStyleReferences": {},
+    "$figmaVariableReferences": {
+      "comp.size.message.typography.font-family": "4c1e77e728479d48de832ea4ec063d53d9d086e1",
+      "comp.size.message.typography.font-size": "a4613e0f66354729414059d5f2e2392b2b087df6",
+      "comp.size.message.typography.font-weight": "e11661492562124a7c8d865292989146ebfce2a2",
+      "comp.size.message.typography.line-height": "fbc243ae008e42c9e371f176bbe4b855c4590957",
+      "comp.size.message.typography.letter-spacing": "74ecd224c56d63bba5587ccbe8de633bbf8cb53e",
+      "comp.size.message.size.padding-x": "a2eda0f83d223898a23ff5647c64b149169b9b4b",
+      "comp.size.message.size.padding-y": "5bb099a4f1139fb8268507dee3238efd55f9e079",
+      "comp.size.message.size.gap": "de907371466ac90a562d8d31718c5ef77e306144",
+      "comp.size.message.size.icon-width": "1d01539c242ae54984ff773d7d32e4b0d3336327",
+      "comp.size.message.size.icon-height": "7b62f37fd86d824f1344e024f7ef252f0d442e71",
+      "comp.size.message.icon.typography.font-family": "bfb03351ceebdbb1929ec3d70cf9bfd55b11d85a",
+      "comp.size.message.icon.typography.font-size": "b6ff6bf13c8e12f3a59822a96048601a7ad68e5c",
+      "comp.size.message.icon.typography.font-weight": "d3fcb901ccf1425060e8fb2c4b81c959abc0c5f9",
+      "comp.size.message.icon.typography.line-height": "4e7b810fc810c6216b28f234239deaff1dc08cc8"
+    },
+    "$figmaModeId": "2002:59",
+    "$figmaCollectionId": "VariableCollectionId:2002:28942"
+  },
+  {
+    "id": "comp-size-spacious",
+    "name": "spacious",
+    "group": "comp-size",
+    "selectedTokenSets": {
+      "comp-size/spacious": "enabled"
+    },
+    "$figmaStyleReferences": {},
+    "$figmaVariableReferences": {
+      "comp.size.message.typography.font-family": "4c1e77e728479d48de832ea4ec063d53d9d086e1",
+      "comp.size.message.typography.font-size": "a4613e0f66354729414059d5f2e2392b2b087df6",
+      "comp.size.message.typography.font-weight": "e11661492562124a7c8d865292989146ebfce2a2",
+      "comp.size.message.typography.line-height": "fbc243ae008e42c9e371f176bbe4b855c4590957",
+      "comp.size.message.typography.letter-spacing": "74ecd224c56d63bba5587ccbe8de633bbf8cb53e",
+      "comp.size.message.size.padding-x": "a2eda0f83d223898a23ff5647c64b149169b9b4b",
+      "comp.size.message.size.padding-y": "5bb099a4f1139fb8268507dee3238efd55f9e079",
+      "comp.size.message.size.gap": "de907371466ac90a562d8d31718c5ef77e306144",
+      "comp.size.message.size.icon-width": "1d01539c242ae54984ff773d7d32e4b0d3336327",
+      "comp.size.message.size.icon-height": "7b62f37fd86d824f1344e024f7ef252f0d442e71",
+      "comp.size.message.icon.typography.font-family": "bfb03351ceebdbb1929ec3d70cf9bfd55b11d85a",
+      "comp.size.message.icon.typography.font-size": "b6ff6bf13c8e12f3a59822a96048601a7ad68e5c",
+      "comp.size.message.icon.typography.font-weight": "d3fcb901ccf1425060e8fb2c4b81c959abc0c5f9",
+      "comp.size.message.icon.typography.line-height": "4e7b810fc810c6216b28f234239deaff1dc08cc8"
+    },
+    "$figmaModeId": "2002:60",
+    "$figmaCollectionId": "VariableCollectionId:2002:28942"
+  },
+  {
+    "id": "comp-size-dense",
+    "name": "dense",
+    "group": "comp-size",
+    "selectedTokenSets": {
+      "comp-size/dense": "enabled"
+    },
+    "$figmaStyleReferences": {},
+    "$figmaVariableReferences": {
+      "comp.size.message.typography.font-family": "4c1e77e728479d48de832ea4ec063d53d9d086e1",
+      "comp.size.message.typography.font-size": "a4613e0f66354729414059d5f2e2392b2b087df6",
+      "comp.size.message.typography.font-weight": "e11661492562124a7c8d865292989146ebfce2a2",
+      "comp.size.message.typography.line-height": "fbc243ae008e42c9e371f176bbe4b855c4590957",
+      "comp.size.message.typography.letter-spacing": "74ecd224c56d63bba5587ccbe8de633bbf8cb53e",
+      "comp.size.message.size.padding-x": "a2eda0f83d223898a23ff5647c64b149169b9b4b",
+      "comp.size.message.size.padding-y": "5bb099a4f1139fb8268507dee3238efd55f9e079",
+      "comp.size.message.size.gap": "de907371466ac90a562d8d31718c5ef77e306144",
+      "comp.size.message.size.icon-width": "1d01539c242ae54984ff773d7d32e4b0d3336327",
+      "comp.size.message.size.icon-height": "7b62f37fd86d824f1344e024f7ef252f0d442e71",
+      "comp.size.message.icon.typography.font-family": "bfb03351ceebdbb1929ec3d70cf9bfd55b11d85a",
+      "comp.size.message.icon.typography.font-size": "b6ff6bf13c8e12f3a59822a96048601a7ad68e5c",
+      "comp.size.message.icon.typography.font-weight": "d3fcb901ccf1425060e8fb2c4b81c959abc0c5f9",
+      "comp.size.message.icon.typography.line-height": "4e7b810fc810c6216b28f234239deaff1dc08cc8"
+    },
+    "$figmaModeId": "4458:0",
+    "$figmaCollectionId": "VariableCollectionId:2002:28942"
+  },
+  {
+    "id": "comp-color-component",
+    "name": "component",
+    "group": "comp-color",
+    "selectedTokenSets": {
+      "comp-color/component": "enabled"
+    },
+    "$figmaStyleReferences": {},
+    "$figmaVariableReferences": {
+      "comp.color.message.color.fg.text.surface.default": "eb385276f84f7aad84b2e9ed49d6c57d77a8cbfc",
+      "comp.color.message.color.fg.text.light.default": "3f45f064b4f11789ba35eaf77d229cbb77530b4d",
+      "comp.color.message.color.fg.text.dark.default": "9f9ee288d5b482b8853c24296ddc664a13b47a2f",
+      "comp.color.message.color.fg.text.surface.error.default": "b1deea826ce7634d48e0547e5746c71f34c708fd",
+      "comp.color.message.color.fg.text.surface.success.default": "071e3abaa121db07bcb56dc25fa169988f3dd78a",
+      "comp.color.message.color.fg.icon.surface.default": "b3780235287b7ad68c1e6a5c9e279962a24a2cbf",
+      "comp.color.message.color.fg.icon.light.default": "5f6140e337b859d988f3663cfe90895db7b6cc2e",
+      "comp.color.message.color.fg.icon.dark.default": "4c824604a0d7e2b9d69f959be8882456de08a803",
+      "comp.color.message.color.fg.icon.surface.error.default": "d7a8704efe853a7fd21e3ace0ed7d6813a11adf1",
+      "comp.color.message.color.fg.icon.surface.success.default": "43644d599baa5bfb37d10ccf35c040fff546319b",
+      "comp.color.message.color.fg.text.surface.disabled": "3eb01a87ff8bb9aab7e94a6253bc564f0c39d9ac",
+      "comp.color.message.color.fg.text.light.disabled": "702b9870a7028edf4d247babda64b016b28c8ef1",
+      "comp.color.message.color.fg.text.dark.disabled": "9f66f422423a0c61a91cf22f02e9612eeaa05025",
+      "comp.color.message.color.fg.icon.surface.disabled": "5143567e8457b503d7fbcaf2e7cf201ba6c2e57c",
+      "comp.color.message.color.fg.icon.dark.disabled": "9c43ad3ff439147334e911939ceb486287498fb1",
+      "comp.color.message.color.fg.icon.light.disabled": "e21c359e259b25944bc8341b1de347b241304cb7",
+      "comp.color.message.color.fg.text.light.error.default": "f81fc10624af5477557efb5c2445fddfe78f94bf",
+      "comp.color.message.color.fg.text.light.success.default": "a1a1ea70a49f95b69c79b649d188308aa5a5940d",
+      "comp.color.message.color.fg.text.dark.success.default": "177f8b860cd0459994c17b1dd226fa21278a56ae",
+      "comp.color.message.color.fg.text.dark.error.default": "77a70a7cc0017e24eb5d34ecb7ad22af43121184",
+      "comp.color.message.color.fg.icon.light.success.default": "ce59c5935163d578ee726e7cd8299eff4c878e7d",
+      "comp.color.message.color.fg.icon.light.error.default": "bbb29e9f36e429fc418205a29776b6bedbdb4c28",
+      "comp.color.message.color.fg.icon.dark.error.default": "f8626962bbab1f5f10bc4f4a14f44c4b4d622bab",
+      "comp.color.message.color.fg.icon.dark.success.default": "45664be90eddf29521a1316add4f15285d997777"
+    },
+    "$figmaModeId": "2002:57",
+    "$figmaCollectionId": "VariableCollectionId:2002:26680"
   }
 ]
