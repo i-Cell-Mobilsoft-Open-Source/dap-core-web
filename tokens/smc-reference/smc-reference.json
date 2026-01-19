@@ -5570,7 +5570,7 @@
         },
         "iconset": {
           "default": {
-            "value": "{base.typography.font-family.MaterialIcons}",
+            "value": "{base.typography.font-family.RemixIcons}",
             "type": "text"
           },
           "custom": {
