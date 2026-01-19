@@ -43,7 +43,7 @@
           "type": "color"
         },
         "darker-90": {
-          "value": "{base.color.ColdGrey.1100}",
+          "value": "{base.color.ColdGrey.400}",
           "type": "color"
         },
         "darker-95": {
