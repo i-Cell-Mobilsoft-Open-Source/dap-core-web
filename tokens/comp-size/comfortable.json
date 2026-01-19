@@ -17,7 +17,7 @@
               "type": "number"
             },
             "font-weight": {
-              "value": "{smc.reference.typography.font-weight.Regular}",
+              "value": "{smc.reference.typography.font-weight.Bold}",
               "type": "number"
             },
             "letter-spacing": {
@@ -28,11 +28,11 @@
         },
         "size": {
           "padding-x": {
-            "value": "{smc.reference.container.padding.20}",
+            "value": "{smc.reference.container.padding.8}",
             "type": "number"
           },
           "padding-y": {
-            "value": "{smc.reference.container.padding.6}",
+            "value": "{smc.reference.container.padding.4}",
             "type": "number"
           },
           "border-radius": {
@@ -40,7 +40,7 @@
             "type": "number"
           },
           "icon": {
-            "value": "{smc.reference.container.icon-nested.md}",
+            "value": "{smc.reference.container.icon-nested.xs}",
             "type": "number"
           },
           "height": {
@@ -48,7 +48,7 @@
             "type": "number"
           },
           "gap": {
-            "value": "{smc.reference.container.gap.8}",
+            "value": "{smc.reference.container.gap.4}",
             "type": "number"
           },
           "border-width": {
@@ -71,7 +71,7 @@
               "type": "text"
             },
             "font-size": {
-              "value": "{smc.reference.typography.font-size.24}",
+              "value": "{smc.reference.typography.font-size.16}",
               "type": "number"
             },
             "line-height": {

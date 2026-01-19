@@ -9,15 +9,15 @@
               "type": "text"
             },
             "font-size": {
-              "value": "{smc.reference.typography.font-size.18}",
+              "value": "{smc.reference.typography.font-size.14}",
               "type": "number"
             },
             "line-height": {
-              "value": "{smc.reference.typography.line-height.24}",
+              "value": "{smc.reference.typography.line-height.20}",
               "type": "number"
             },
             "font-weight": {
-              "value": "{smc.reference.typography.font-weight.Regular}",
+              "value": "{smc.reference.typography.font-weight.Bold}",
               "type": "number"
             },
             "letter-spacing": {
@@ -28,19 +28,19 @@
         },
         "size": {
           "padding-x": {
-            "value": "{smc.reference.container.padding.24}",
+            "value": "{smc.reference.container.padding.8}",
             "type": "number"
           },
           "padding-y": {
-            "value": "{smc.reference.container.padding.16}",
+            "value": "{smc.reference.container.padding.4}",
             "type": "number"
           },
           "border-radius": {
-            "value": "{smc.reference.container.border-radius.full}",
+            "value": "{smc.reference.container.border-radius.xs}",
             "type": "number"
           },
           "icon": {
-            "value": "{smc.reference.container.icon-nested.lg}",
+            "value": "{smc.reference.container.icon-nested.xs}",
             "type": "number"
           },
           "height": {
@@ -48,7 +48,7 @@
             "type": "number"
           },
           "gap": {
-            "value": "{smc.reference.container.gap.8}",
+            "value": "{smc.reference.container.gap.4}",
             "type": "number"
           },
           "border-width": {
@@ -71,7 +71,7 @@
               "type": "text"
             },
             "font-size": {
-              "value": "{smc.reference.typography.font-size.32}",
+              "value": "{smc.reference.typography.font-size.16}",
               "type": "number"
             },
             "line-height": {
