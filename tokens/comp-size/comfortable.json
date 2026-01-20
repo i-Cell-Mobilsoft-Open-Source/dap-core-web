@@ -12,7 +12,7 @@
             "type": "number"
           },
           "font-weight": {
-            "value": "{smc.reference.typography.font-weight.SemiBold}",
+            "value": "{smc.reference.typography.font-weight.Bold}",
             "type": "number"
           },
           "line-height": {
