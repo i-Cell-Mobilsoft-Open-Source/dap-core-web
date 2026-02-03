@@ -35,7 +35,7 @@
           },
           "warning": {
             "default": {
-              "value": "{smc.reference.container.color.bg.warning.default}",
+              "value": "{smc.reference.container.color.bg.warning.lighter-30}",
               "type": "color"
             }
           },
