@@ -5573,8 +5573,12 @@
             "value": "{base.typography.font-family.RemixIcons}",
             "type": "text"
           },
-          "custom": {
-            "value": "{base.typography.font-family.MaterialIcons}",
+          "idsBase": {
+            "value": "{base.typography.font-family.IdsRemixIcons}",
+            "type": "text"
+          },
+          "unique": {
+            "value": "{base.typography.font-family.IdsRemixIconsUnique}",
             "type": "text"
           }
         }
