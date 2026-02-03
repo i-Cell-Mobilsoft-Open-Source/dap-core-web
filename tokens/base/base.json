@@ -3,27 +3,47 @@
     "typography": {
       "font-family": {
         "RemixIcons": {
-          "value": "I-DS-font-icon-remix",
+          "value": "remixicon",
           "type": "text"
         },
         "HeroIcons": {
-          "value": "I-DS-font-icon-hero",
+          "value": "heroicon",
           "type": "text"
         },
         "Montserrat": {
           "value": "Montserrat",
           "type": "text"
         },
-        "IdsFonticon": {
-          "value": "I-DS-font-icon-default",
-          "type": "text"
-        },
         "MaterialIcons": {
-          "value": "I-DS-font-icon-material",
+          "value": "Material Icons",
           "type": "text"
         },
         "Inter": {
-          "value": "Inter",
+          "value": "inter",
+          "type": "text"
+        },
+        "IdsMaterialIcons": {
+          "value": "I-DS-font-icon-material",
+          "type": "text"
+        },
+        "IdsMateriaIIconsUnique": {
+          "value": "I-DS-font-icon-material-unique",
+          "type": "text"
+        },
+        "IdsRemixIcons": {
+          "value": "I-DS-font-icon-remix",
+          "type": "text"
+        },
+        "IdsRemixIconsUnique": {
+          "value": "I-DS-font-icon-remix-unique",
+          "type": "text"
+        },
+        "IdsHeroIcons": {
+          "value": "I-DS-font-icon-hero",
+          "type": "text"
+        },
+        "IdsHeroIconsUnique": {
+          "value": "I-DS-font-icon-hero-unique",
           "type": "text"
         }
       },
