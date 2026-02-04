@@ -5573,7 +5573,7 @@
             "value": "{base.typography.font-family.RemixIcons}",
             "type": "text"
           },
-          "idsBase": {
+          "idsbase": {
             "value": "{base.typography.font-family.IdsRemixIcons}",
             "type": "text"
           },
