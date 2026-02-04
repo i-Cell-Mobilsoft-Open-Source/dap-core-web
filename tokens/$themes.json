@@ -5203,5 +5203,101 @@
     "$figmaModeId": "9755:3",
     "$figmaCollectionId": "VariableCollectionId:9755:947",
     "group": "smc-layout"
+  },
+  {
+    "id": "comp-size-compact",
+    "name": "compact",
+    "group": "comp-size",
+    "selectedTokenSets": {
+      "comp-size/compact": "enabled"
+    },
+    "$figmaStyleReferences": {},
+    "$figmaVariableReferences": {
+      "comp.size.icon.size.smallCollection.height": "22195d58b72d9d6d811cfcc86c0b3103ac62e11a",
+      "comp.size.icon.size.smallCollection.width": "15d4b7dba3e6e9640f35fbb386007d7b443cf3f2",
+      "comp.size.icon.typography.smallCollection.font-size": "1688f71e735fba4364452cf8f2b93b33b00ef627",
+      "comp.size.icon.typography.smallCollection.line-height": "48d62ff84faa910bb27922eff1612deddc37102c",
+      "comp.size.icon.size.bigCollection.height": "a418192aa64cd41f242aec5df235e131f193b6ed",
+      "comp.size.icon.size.bigCollection.width": "5fb54e8d35dfc1347154766a11dcb3c5047a97f9",
+      "comp.size.icon.typography.bigCollection.font-size": "52372b77ab664a32e2b9e64c90933916e829cbb3",
+      "comp.size.icon.typography.bigCollection.line-height": "4c9c595a48c503f89844c4b64b71a9faad91e5fb",
+      "comp.size.icon.typography.font-family.font-family-default": "42f852907554cbd4adadbe2783de17d664089294",
+      "comp.size.icon.typography.font-family.font-family-idsbase": "8e2491d3158baf04729ed9200e47c09b62a43ccc",
+      "comp.size.icon.typography.font-family.font-family-unique": "647d51f3e1ef26ac1dc92309fa2e1720aa48e3d5"
+    },
+    "$figmaModeId": "2002:58",
+    "$figmaCollectionId": "VariableCollectionId:2002:28942"
+  },
+  {
+    "id": "comp-size-comfortable",
+    "name": "comfortable",
+    "group": "comp-size",
+    "selectedTokenSets": {
+      "comp-size/comfortable": "enabled"
+    },
+    "$figmaStyleReferences": {},
+    "$figmaVariableReferences": {
+      "comp.size.icon.size.smallCollection.height": "22195d58b72d9d6d811cfcc86c0b3103ac62e11a",
+      "comp.size.icon.size.smallCollection.width": "15d4b7dba3e6e9640f35fbb386007d7b443cf3f2",
+      "comp.size.icon.typography.smallCollection.font-size": "1688f71e735fba4364452cf8f2b93b33b00ef627",
+      "comp.size.icon.typography.smallCollection.line-height": "48d62ff84faa910bb27922eff1612deddc37102c",
+      "comp.size.icon.size.bigCollection.height": "a418192aa64cd41f242aec5df235e131f193b6ed",
+      "comp.size.icon.size.bigCollection.width": "5fb54e8d35dfc1347154766a11dcb3c5047a97f9",
+      "comp.size.icon.typography.bigCollection.font-size": "52372b77ab664a32e2b9e64c90933916e829cbb3",
+      "comp.size.icon.typography.bigCollection.line-height": "4c9c595a48c503f89844c4b64b71a9faad91e5fb",
+      "comp.size.icon.typography.font-family.font-family-default": "42f852907554cbd4adadbe2783de17d664089294",
+      "comp.size.icon.typography.font-family.font-family-idsbase": "8e2491d3158baf04729ed9200e47c09b62a43ccc",
+      "comp.size.icon.typography.font-family.font-family-unique": "647d51f3e1ef26ac1dc92309fa2e1720aa48e3d5"
+    },
+    "$figmaModeId": "2002:59",
+    "$figmaCollectionId": "VariableCollectionId:2002:28942"
+  },
+  {
+    "id": "comp-size-spacious",
+    "name": "spacious",
+    "group": "comp-size",
+    "selectedTokenSets": {
+      "comp-size/spacious": "enabled"
+    },
+    "$figmaStyleReferences": {},
+    "$figmaVariableReferences": {
+      "comp.size.icon.size.smallCollection.height": "22195d58b72d9d6d811cfcc86c0b3103ac62e11a",
+      "comp.size.icon.size.smallCollection.width": "15d4b7dba3e6e9640f35fbb386007d7b443cf3f2",
+      "comp.size.icon.typography.smallCollection.font-size": "1688f71e735fba4364452cf8f2b93b33b00ef627",
+      "comp.size.icon.typography.smallCollection.line-height": "48d62ff84faa910bb27922eff1612deddc37102c",
+      "comp.size.icon.size.bigCollection.height": "a418192aa64cd41f242aec5df235e131f193b6ed",
+      "comp.size.icon.size.bigCollection.width": "5fb54e8d35dfc1347154766a11dcb3c5047a97f9",
+      "comp.size.icon.typography.bigCollection.font-size": "52372b77ab664a32e2b9e64c90933916e829cbb3",
+      "comp.size.icon.typography.bigCollection.line-height": "4c9c595a48c503f89844c4b64b71a9faad91e5fb",
+      "comp.size.icon.typography.font-family.font-family-default": "42f852907554cbd4adadbe2783de17d664089294",
+      "comp.size.icon.typography.font-family.font-family-idsbase": "8e2491d3158baf04729ed9200e47c09b62a43ccc",
+      "comp.size.icon.typography.font-family.font-family-unique": "647d51f3e1ef26ac1dc92309fa2e1720aa48e3d5"
+    },
+    "$figmaModeId": "2002:60",
+    "$figmaCollectionId": "VariableCollectionId:2002:28942"
+  },
+  {
+    "id": "comp-size-dense",
+    "name": "dense",
+    "group": "comp-size",
+    "selectedTokenSets": {
+      "comp-size/dense": "enabled"
+    },
+    "$figmaStyleReferences": {},
+    "$figmaVariableReferences": {
+      "comp.size.icon.size.smallCollection.height": "22195d58b72d9d6d811cfcc86c0b3103ac62e11a",
+      "comp.size.icon.size.smallCollection.width": "15d4b7dba3e6e9640f35fbb386007d7b443cf3f2",
+      "comp.size.icon.typography.smallCollection.font-size": "1688f71e735fba4364452cf8f2b93b33b00ef627",
+      "comp.size.icon.typography.smallCollection.line-height": "48d62ff84faa910bb27922eff1612deddc37102c",
+      "comp.size.icon.size.bigCollection.height": "a418192aa64cd41f242aec5df235e131f193b6ed",
+      "comp.size.icon.size.bigCollection.width": "5fb54e8d35dfc1347154766a11dcb3c5047a97f9",
+      "comp.size.icon.typography.bigCollection.font-size": "52372b77ab664a32e2b9e64c90933916e829cbb3",
+      "comp.size.icon.typography.bigCollection.line-height": "4c9c595a48c503f89844c4b64b71a9faad91e5fb",
+      "comp.size.icon.typography.font-family.font-family-default": "42f852907554cbd4adadbe2783de17d664089294",
+      "comp.size.icon.typography.font-family.font-family-idsbase": "8e2491d3158baf04729ed9200e47c09b62a43ccc",
+      "comp.size.icon.typography.font-family.font-family-unique": "647d51f3e1ef26ac1dc92309fa2e1720aa48e3d5"
+    },
+    "$figmaModeId": "4458:0",
+    "$figmaCollectionId": "VariableCollectionId:2002:28942"
   }
 ]
