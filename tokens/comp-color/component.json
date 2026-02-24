@@ -8,13 +8,23 @@
               "light": {
                 "default": {
                   "value": "{smc.reference.container.color.bg.light.default}",
-                  "type": "color"
+                  "type": "color",
+                  "$extensions": {
+                    "com.figma.scopes": [
+                      "FRAME_FILL"
+                    ]
+                  }
                 }
               },
               "surface": {
                 "default": {
                   "value": "{smc.reference.container.color.bg.surface.default}",
-                  "type": "color"
+                  "type": "color",
+                  "$extensions": {
+                    "com.figma.scopes": [
+                      "FRAME_FILL"
+                    ]
+                  }
                 }
               }
             },
@@ -22,21 +32,43 @@
               "light": {
                 "on": {
                   "value": "{smc.colors.surface.darker-60}",
-                  "type": "color"
+                  "type": "color",
+                  "$extensions": {
+                    "com.figma.scopes": [
+                      "SHAPE_FILL",
+                      "TEXT_FILL"
+                    ]
+                  }
                 },
                 "on-disable": {
                   "value": "{smc.reference.container.color.fg.disabled.default}",
-                  "type": "color"
+                  "type": "color",
+                  "$extensions": {
+                    "com.figma.scopes": [
+                      "SHAPE_FILL",
+                      "TEXT_FILL"
+                    ]
+                  }
                 }
               },
               "surface": {
                 "on": {
                   "value": "{smc.colors.surface.darker-60}",
-                  "type": "color"
+                  "type": "color",
+                  "$extensions": {
+                    "com.figma.scopes": [
+                      "ALL_SCOPES"
+                    ]
+                  }
                 },
                 "on-disable": {
                   "value": "{smc.reference.container.color.fg.disabled.default}",
-                  "type": "color"
+                  "type": "color",
+                  "$extensions": {
+                    "com.figma.scopes": [
+                      "ALL_SCOPES"
+                    ]
+                  }
                 }
               }
             },
@@ -44,13 +76,23 @@
               "light": {
                 "default": {
                   "value": "{smc.reference.container.color.border.transparent}",
-                  "type": "color"
+                  "type": "color",
+                  "$extensions": {
+                    "com.figma.scopes": [
+                      "STROKE_COLOR"
+                    ]
+                  }
                 }
               },
               "surface": {
                 "default": {
                   "value": "{smc.reference.container.color.border.transparent}",
-                  "type": "color"
+                  "type": "color",
+                  "$extensions": {
+                    "com.figma.scopes": [
+                      "STROKE_COLOR"
+                    ]
+                  }
                 }
               }
             }
@@ -62,13 +104,23 @@
               "light": {
                 "default": {
                   "value": "{smc.reference.container.color.bg.surface.lighter-10}",
-                  "type": "color"
+                  "type": "color",
+                  "$extensions": {
+                    "com.figma.scopes": [
+                      "FRAME_FILL"
+                    ]
+                  }
                 }
               },
               "surface": {
                 "default": {
                   "value": "{smc.reference.container.color.bg.surface.default}",
-                  "type": "color"
+                  "type": "color",
+                  "$extensions": {
+                    "com.figma.scopes": [
+                      "FRAME_FILL"
+                    ]
+                  }
                 }
               }
             },
@@ -76,27 +128,49 @@
               "light": {
                 "default": {
                   "value": "{smc.colors.surface.lighter-10}",
-                  "type": "color"
+                  "type": "color",
+                  "$extensions": {
+                    "com.figma.scopes": [
+                      "SHAPE_FILL",
+                      "TEXT_FILL"
+                    ]
+                  }
                 }
               },
               "surface": {
                 "default": {
                   "value": "{smc.colors.surface.lighter-10}",
-                  "type": "color"
+                  "type": "color",
+                  "$extensions": {
+                    "com.figma.scopes": [
+                      "SHAPE_FILL",
+                      "TEXT_FILL"
+                    ]
+                  }
                 }
               }
             },
             "border": {
               "light": {
                 "default": {
-                  "value": "{smc.reference.container.color.border.light.darker-30}",
-                  "type": "color"
+                  "value": "{smc.reference.container.color.border.light.darker-20}",
+                  "type": "color",
+                  "$extensions": {
+                    "com.figma.scopes": [
+                      "STROKE_COLOR"
+                    ]
+                  }
                 }
               },
               "surface": {
                 "default": {
-                  "value": "{smc.reference.container.color.border.light.darker-30}",
-                  "type": "color"
+                  "value": "{smc.reference.container.color.border.light.darker-20}",
+                  "type": "color",
+                  "$extensions": {
+                    "com.figma.scopes": [
+                      "STROKE_COLOR"
+                    ]
+                  }
                 }
               }
             }
@@ -108,13 +182,23 @@
               "light": {
                 "default": {
                   "value": "{smc.reference.container.color.bg.light.default}",
-                  "type": "color"
+                  "type": "color",
+                  "$extensions": {
+                    "com.figma.scopes": [
+                      "FRAME_FILL"
+                    ]
+                  }
                 }
               },
               "surface": {
                 "default": {
                   "value": "{smc.reference.container.color.bg.surface.default}",
-                  "type": "color"
+                  "type": "color",
+                  "$extensions": {
+                    "com.figma.scopes": [
+                      "FRAME_FILL"
+                    ]
+                  }
                 }
               }
             },
@@ -122,21 +206,45 @@
               "light": {
                 "on": {
                   "value": "{smc.colors.surface.darker-60}",
-                  "type": "color"
+                  "type": "color",
+                  "$extensions": {
+                    "com.figma.scopes": [
+                      "SHAPE_FILL",
+                      "TEXT_FILL"
+                    ]
+                  }
                 },
                 "on-disable": {
                   "value": "{smc.reference.container.color.fg.disabled.default}",
-                  "type": "color"
+                  "type": "color",
+                  "$extensions": {
+                    "com.figma.scopes": [
+                      "SHAPE_FILL",
+                      "TEXT_FILL"
+                    ]
+                  }
                 }
               },
               "surface": {
                 "on": {
                   "value": "{smc.colors.surface.darker-60}",
-                  "type": "color"
+                  "type": "color",
+                  "$extensions": {
+                    "com.figma.scopes": [
+                      "SHAPE_FILL",
+                      "TEXT_FILL"
+                    ]
+                  }
                 },
                 "on-disable": {
                   "value": "{smc.reference.container.color.fg.disabled.default}",
-                  "type": "color"
+                  "type": "color",
+                  "$extensions": {
+                    "com.figma.scopes": [
+                      "SHAPE_FILL",
+                      "TEXT_FILL"
+                    ]
+                  }
                 }
               }
             },
@@ -144,13 +252,23 @@
               "light": {
                 "default": {
                   "value": "{smc.reference.container.color.border.transparent}",
-                  "type": "color"
+                  "type": "color",
+                  "$extensions": {
+                    "com.figma.scopes": [
+                      "STROKE_COLOR"
+                    ]
+                  }
                 }
               },
               "surface": {
                 "default": {
                   "value": "{smc.reference.container.color.border.transparent}",
-                  "type": "color"
+                  "type": "color",
+                  "$extensions": {
+                    "com.figma.scopes": [
+                      "STROKE_COLOR"
+                    ]
+                  }
                 }
               }
             }

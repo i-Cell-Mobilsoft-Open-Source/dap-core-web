@@ -5,23 +5,48 @@
         "size": {
           "padding-x": {
             "value": "{smc.reference.container.padding.10}",
-            "type": "number"
+            "type": "number",
+            "$extensions": {
+              "com.figma.scopes": [
+                "GAP"
+              ]
+            }
           },
           "padding-y": {
             "value": "{smc.reference.container.padding.10}",
-            "type": "number"
+            "type": "number",
+            "$extensions": {
+              "com.figma.scopes": [
+                "GAP"
+              ]
+            }
           },
           "border-radius": {
             "value": "{smc.reference.container.border-radius.lg}",
-            "type": "number"
+            "type": "number",
+            "$extensions": {
+              "com.figma.scopes": [
+                "CORNER_RADIUS"
+              ]
+            }
           },
           "border": {
-            "value": "{smc.reference.container.border-width.md}",
-            "type": "number"
+            "value": "{smc.reference.container.border-width.sm}",
+            "type": "number",
+            "$extensions": {
+              "com.figma.scopes": [
+                "STROKE_FLOAT"
+              ]
+            }
           },
           "gap": {
             "value": "{smc.reference.container.gap.12}",
-            "type": "number"
+            "type": "number",
+            "$extensions": {
+              "com.figma.scopes": [
+                "GAP"
+              ]
+            }
           },
           "max-width": {
             "value": "{smc.reference.container.size.width.320}",
