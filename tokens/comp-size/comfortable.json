@@ -249,7 +249,7 @@
         "icon": {
           "typography": {
             "font-family": {
-              "value": "{smc.reference.typography.iconset.idsbase}",
+              "value": "{smc.reference.typography.iconset.default}",
               "type": "text",
               "$extensions": {
                 "com.figma.scopes": [
