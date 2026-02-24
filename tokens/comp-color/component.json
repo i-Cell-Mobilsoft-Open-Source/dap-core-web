@@ -4,8 +4,13 @@
       "dialog": {
         "backdrop": {
           "background": {
-            "value": "{smc.reference.container.color.bg.surface.darker-100}",
-            "type": "color"
+            "value": "{smc.reference.container.color.opacity.backdrop.default}",
+            "type": "color",
+            "$extensions": {
+              "com.figma.scopes": [
+                "FRAME_FILL"
+              ]
+            }
           }
         },
         "container": {
@@ -13,14 +18,24 @@
             "bg": {
               "default": {
                 "value": "{smc.reference.container.color.bg.surface.lighter-10}",
-                "type": "color"
+                "type": "color",
+                "$extensions": {
+                  "com.figma.scopes": [
+                    "FRAME_FILL"
+                  ]
+                }
               }
             },
             "border": {
               "surface": {
                 "default": {
                   "value": "{smc.reference.container.color.border.surface.transparent.0}",
-                  "type": "color"
+                  "type": "color",
+                  "$extensions": {
+                    "com.figma.scopes": [
+                      "STROKE_COLOR"
+                    ]
+                  }
                 }
               }
             }
@@ -31,7 +46,12 @@
             "bg": {
               "default": {
                 "value": "{smc.reference.container.color.bg.surface.transparent.0}",
-                "type": "color"
+                "type": "color",
+                "$extensions": {
+                  "com.figma.scopes": [
+                    "FRAME_FILL"
+                  ]
+                }
               }
             }
           }
@@ -41,14 +61,24 @@
             "bg": {
               "default": {
                 "value": "{smc.reference.container.color.bg.surface.transparent.0}",
-                "type": "color"
+                "type": "color",
+                "$extensions": {
+                  "com.figma.scopes": [
+                    "FRAME_FILL"
+                  ]
+                }
               }
             },
             "border": {
               "surface": {
                 "default": {
                   "value": "{smc.reference.container.color.border.surface.darker-20}",
-                  "type": "color"
+                  "type": "color",
+                  "$extensions": {
+                    "com.figma.scopes": [
+                      "STROKE_COLOR"
+                    ]
+                  }
                 }
               }
             }
@@ -59,7 +89,12 @@
             "bg": {
               "default": {
                 "value": "{smc.reference.container.color.bg.surface.transparent.0}",
-                "type": "color"
+                "type": "color",
+                "$extensions": {
+                  "com.figma.scopes": [
+                    "FRAME_FILL"
+                  ]
+                }
               }
             }
           }
