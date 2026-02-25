@@ -33,7 +33,7 @@
             "bg": {
               "surface": {
                 "default": {
-                  "value": "{smc.reference.container.color.bg.surface.darker-10}",
+                  "value": "{smc.reference.container.color.bg.surface.darker-2}",
                   "type": "color",
                   "$extensions": {
                     "com.figma.scopes": [
@@ -42,7 +42,7 @@
                   }
                 },
                 "hovered": {
-                  "value": "{smc.reference.container.color.bg.surface.darker-20}",
+                  "value": "{smc.reference.container.color.bg.surface.darker-4}",
                   "type": "color",
                   "$extensions": {
                     "com.figma.scopes": [
@@ -51,7 +51,7 @@
                   }
                 },
                 "focused": {
-                  "value": "{smc.reference.container.color.bg.surface.darker-10}",
+                  "value": "{smc.reference.container.color.bg.surface.darker-2}",
                   "type": "color",
                   "$extensions": {
                     "com.figma.scopes": [
@@ -60,7 +60,7 @@
                   }
                 },
                 "pressed": {
-                  "value": "{smc.reference.container.color.bg.surface.darker-30}",
+                  "value": "{smc.reference.container.color.bg.surface.darker-6}",
                   "type": "color",
                   "$extensions": {
                     "com.figma.scopes": [
@@ -69,7 +69,7 @@
                   }
                 },
                 "dragged": {
-                  "value": "{smc.reference.container.color.bg.surface.darker-20}",
+                  "value": "{smc.reference.container.color.bg.surface.darker-6}",
                   "type": "color",
                   "$extensions": {
                     "com.figma.scopes": [
@@ -2145,7 +2145,7 @@
             "bg": {
               "surface": {
                 "default": {
-                  "value": "{smc.reference.container.color.bg.surface.darker-10}",
+                  "value": "{smc.reference.container.color.bg.surface.darker-2}",
                   "type": "color",
                   "$extensions": {
                     "com.figma.scopes": [
@@ -2154,7 +2154,7 @@
                   }
                 },
                 "hovered": {
-                  "value": "{smc.reference.container.color.bg.surface.darker-20}",
+                  "value": "{smc.reference.container.color.bg.surface.darker-4}",
                   "type": "color",
                   "$extensions": {
                     "com.figma.scopes": [
@@ -2163,7 +2163,7 @@
                   }
                 },
                 "focused": {
-                  "value": "{smc.reference.container.color.bg.surface.darker-20}",
+                  "value": "{smc.reference.container.color.bg.surface.darker-2}",
                   "type": "color",
                   "$extensions": {
                     "com.figma.scopes": [
@@ -2172,7 +2172,7 @@
                   }
                 },
                 "pressed": {
-                  "value": "{smc.reference.container.color.bg.surface.darker-30}",
+                  "value": "{smc.reference.container.color.bg.surface.darker-6}",
                   "type": "color",
                   "$extensions": {
                     "com.figma.scopes": [
@@ -2181,7 +2181,7 @@
                   }
                 },
                 "dragged": {
-                  "value": "{smc.reference.container.color.bg.surface.darker-20}",
+                  "value": "{smc.reference.container.color.bg.surface.darker-6}",
                   "type": "color",
                   "$extensions": {
                     "com.figma.scopes": [
